@@ -1,0 +1,180 @@
+.bgimg{
+    height: 950px;
+    background-image: url('../fort responsive webpage/img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.navbar-item{
+    display: inline-block;
+    text-shadow: brown;
+}
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+}
+.headerset h1{
+    font-size: 70px;
+    font-family: cursive;
+    font-weight: bolder;
+    color:black;
+    margin-top: -670px;
+    transition: 0.8s ease;
+}
+.headerset h6{
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 30px;
+    color:rgb(193, 211, 35);
+    transition: 0.7s ease;
+    font-weight: bolder;
+}
+.headerset h1:hover{
+    font-size: 80px;
+    color: rgb(247, 7, 155);
+}
+.headerset h6:hover {
+    font-size :35px;
+    color:rgb(6, 248, 188);
+    
+}
+@media only screen and (max-width:800px;) {
+            .headerset h1{
+             font-size: 70px;
+            font-family: cursive;
+            font-weight: bolder;
+            color:black;
+            margin-top: -670px;
+            transition: 0.8s ease;}
+            .headerset h1{
+                font-size: 70px;
+                font-family: cursive;
+                font-weight: bolder;
+                color:black;
+                margin-top: -670px;
+                transition: 0.8s ease;}  
+}
+.navbar-item{
+    padding: 10px;
+    font-weight: bolder;
+    font-style: italic;
+    transition: 0.5s ease;
+}
+.navbar-item:hover{
+    color: yellow;
+    font-size: 20px;
+}
+.btn btn-warning{
+    padding: 10px;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    padding: 10px;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    background-color: darkgreen;
+    color: black;
+    border-color: black;
+}
+.posts{
+    margin-top: -69px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+section{
+    padding: 15px;
+    margin: 15px;
+}
+.card-group{
+    margin: 20px;
+}
+.card{
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    opacity: 0.3;
+    border-color:rgb(192, 7, 7);
+    color: rgb(24, 21, 212);
+    font-size: 15px;
+    font-family: cursive;
+}
+.headerset h6 {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: n1;
+    color: lawngreen;
+}
+@keyframes n1{
+    0%   {color: rgb(230, 211, 49);}
+    25%  {color: rgb(175, 68, 18);}
+    50%  {color: rgb(233, 14, 149);}
+    75%  {color: rgb(26, 12, 231);}
+    100% {color: gray}
+}
+.india {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: n2;
+    color:rgb(247, 97, 11);
+
+}
+@keyframes n2{
+    25%   {color:rgb(247, 97, 11);}
+    50%  {color: rgb(247, 243, 241);}
+    100%  {color: rgb(7, 100, 7);}
+}
+/*frist{
+    animation-name: n3;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+@keyframes n3{
+    from{margin-top: 0px;}
+    to {margin-bottom: 25px;}
+}*/
+.footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 20px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+?/*.heart{
+    font-size: 40px;
+    color: burlywood;
+    animation:beat 0.0005s infinite alternate;
+    transform-origin: center;
+}
+@keyframes beat{
+    to  { transform:scale(0.4); }
+}*/
+.changetext{
+    color: chartreuse;
+}
+
+
+
